@@ -1,5 +1,7 @@
 module Allmenus
-  class Configuration
-    attr_accessor :app_key
+  class Configuration < Struct.new(:api_key, :log_request)
+    def initialize
+      @log_request = false
+    end
   end
 end
