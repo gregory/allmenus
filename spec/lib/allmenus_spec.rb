@@ -4,16 +4,16 @@ describe Allmenus do
   subject { Allmenus }
 
   describe '.configure' do
-    let(:app_key) { 'THE_APP_KEY' }
+    let(:api_key) { 'THE_api_key' }
 
     before do
       subject.configure do |config|
-        config.app_key = app_key
+        config.api_key = api_key
       end
     end
 
-    it 'has an appropriate app_key' do
-      subject.config.app_key.must_equal app_key
+    it 'has an appropriate api_key' do
+      subject.config.api_key.must_equal api_key
     end
   end
 end
