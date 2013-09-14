@@ -4,6 +4,8 @@ group :test do
   gem 'minitest', '4.7.5'
   gem 'webmock'
   gem 'vcr'
+  gem 'pry'
+  gem 'pry-debugger'
   gem 'guard'
   gem 'guard-minitest'
   gem 'turn'
