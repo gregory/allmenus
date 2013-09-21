@@ -1,6 +1,8 @@
 require 'rack'
 require 'faraday'
 require 'json'
+require 'happymapper'
+
 Dir[File.dirname(__FILE__) + '/allmenus/*.rb'].each do |file|
   require file
 end

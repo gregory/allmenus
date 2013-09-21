@@ -11,13 +11,9 @@ module Allmenus
     end
 
     def self.get(params={})
-      response = self.connection.get(self.uri(params))
-      self.handle_response(response)
-    end
-
-    def self.handle_response(response)
-      response_body = response.body.gsub(/\t|\n/, ' ') # Hack around the bad json response
-      ::JSON.parse(response_body) if response.status == 200
+      self.connection.get(self.uri(params)).tap do |response|
+        response.env[:body] = response.body.gsub(/\t|\n/, '') #clean the dirty response
+      end
     end
 
     def self.uri query_params

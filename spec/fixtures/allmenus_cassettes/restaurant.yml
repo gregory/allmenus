@@ -2,7 +2,62 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.allmenus.com/restaurant?api_key=gjsrw7xxs4fqsutyp7xrm6t&restaurant_id=294063&return_type=json&type=info&v=2
+    uri: http://api.allmenus.com/restaurant?api_key=agjsrw7xxs4fqsutyp7xrm6t&id=294063&return_type=json&type=info&v=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1s
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyMCBTZXAgMjAxMyAwMDoyODozNiBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi4xNCAoVWJ1bnR1KQ==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "WC1NYXNoZXJ5LVJlc3BvbmRlcg==":
+      - !binary |-
+        cHJvZC1qLXdvcmtlci11cy1lYXN0LTFjLTM0Lm1hc2hlcnkuY29t
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMy4yLTF1YnVudHU0Ljk=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjA=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    http_version: 
+  recorded_at: Fri, 20 Sep 2013 00:28:44 GMT
+- request:
+    method: get
+    uri: http://api.allmenus.com/restaurant?api_key&id=294063&return_type=json&type=info&v=2
     body:
       encoding: US-ASCII
       string: ''
@@ -21,13 +76,13 @@ http_interactions:
       Content-Type:
       - text/xml
       Date:
-      - Sat, 14 Sep 2013 04:09:05 GMT
+      - Sat, 21 Sep 2013 18:18:40 GMT
       Server:
       - Mashery Proxy
       X-Mashery-Error-Code:
       - ERR_403_DEVELOPER_INACTIVE
       X-Mashery-Responder:
-      - prod-j-worker-us-east-1c-31.mashery.com
+      - prod-j-worker-us-east-1b-36.mashery.com
       Content-Length:
       - '27'
       Connection:
@@ -36,7 +91,7 @@ http_interactions:
       encoding: US-ASCII
       string: <h1>Developer Inactive</h1>
     http_version: 
-  recorded_at: Sat, 14 Sep 2013 04:09:05 GMT
+  recorded_at: Sat, 21 Sep 2013 18:18:41 GMT
 - request:
     method: get
     uri: http://api.allmenus.com/restaurant?api_key=agjsrw7xxs4fqsutyp7xrm6t&restaurant_id=294063&return_type=json&type=info&v=2
@@ -60,11 +115,11 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 14 Sep 2013 04:31:09 GMT
+      - Sat, 21 Sep 2013 18:21:25 GMT
       Server:
       - Apache/2.2.14 (Ubuntu)
       X-Mashery-Responder:
-      - prod-j-worker-us-east-1b-33.mashery.com
+      - prod-j-worker-us-east-1d-35.mashery.com
       X-Powered-By:
       - PHP/5.3.2-1ubuntu4.9
       Transfer-Encoding:
@@ -83,5 +138,67 @@ http_interactions:
         order_link in /var/www/www/services-core/v2/templates/jsonrestaurant.php on
         line 23\n\"\n    }\n}"
     http_version: 
-  recorded_at: Sat, 14 Sep 2013 04:31:20 GMT
+  recorded_at: Sat, 21 Sep 2013 18:21:32 GMT
+- request:
+    method: get
+    uri: http://api.allmenus.com/restaurant?api_key=agjsrw7xxs4fqsutyp7xrm6t&restaurant_id=294063&type=info&v=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1s
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAyMSBTZXAgMjAxMyAxODoyNjo1MyBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi4xNCAoVWJ1bnR1KQ==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "WC1NYXNoZXJ5LVJlc3BvbmRlcg==":
+      - !binary |-
+        cHJvZC1qLXdvcmtlci11cy1lYXN0LTFkLTM4Lm1hc2hlcnkuY29t
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMy4yLTF1YnVudHU0Ljk=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MzYw
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA71STU/DMAw9w6+weoJD666FAVMWBAKEhIADcJ6yxtuitUmU
+        tB3w68kWYAPuRIpk+z1/vYSdvzY19OS8MnqcDLI8AdKVkUrPx8nL8016msA5
+        Z458KzondAtKjpPi7Cgflgnfh3B2wIkWDfHLrhJwpeCSrDV7DH/jMcsujKaJ
+        7popOX5wnJ8eQlkO06MiLxj+ACNfSBkKeV4el3Cr5otaaAkXPQHDLygSK9W+
+        8afr67vHhzuGGy8CYYqW+P0Fw2jF6Luyk7Aw8bw4ORkw/PYj3JDuJrXSS75o
+        WztCXK1WmajrddxnlWmwEeiJlkYvMeqSToMAqVTpdC0ArpnIcFsoFjZOkvsM
+        PJhWVTSCFy1ppjRJUMF6HcGWFCKAvXDr/pvryfUhyaeVcYR9gS01tg57eQxv
+        utU8swsLRkMoQlDk+wx3O0fFRGM7PzNG/vs8gzDPn/a7X4Z/AKv+41mjAgAA
+    http_version: 
+  recorded_at: Sat, 21 Sep 2013 18:27:00 GMT
 recorded_with: VCR 2.5.0

@@ -15,7 +15,7 @@ describe Allmenus::Connection do
       {
         restaurant_id: 12345,
         type:          'request_type',
-        return_type:   'json'
+        return_type:   'bar'
       }
     end
 
@@ -60,18 +60,6 @@ describe Allmenus::Connection do
     end
     after do
       VCR.eject_cassette
-    end
-
-    let(:params) do
-      {
-        restaurant_id: 294063,
-        type:          'info',
-        return_type:   'json'
-      }
-    end
-
-    it 'return a response form allmenus' do
-      response = subject.get(params)
     end
   end
 end

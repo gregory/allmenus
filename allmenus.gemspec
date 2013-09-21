@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "bundler", "~> 1.3"
   spec.add_dependency "rack"
   spec.add_dependency "faraday"
-  spec.add_dependency "happymapper"
   spec.add_dependency "json"
+  spec.add_dependency "happymapper"
 end
