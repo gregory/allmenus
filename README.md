@@ -23,6 +23,9 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+Allmenus.configure{|c| c.api_key = ENV['ALLMENUS_API_KEY']; c.log_request = true}
+Allmenus::Menu.find(menu_id)
+
 ## Contributing
 
 1. Fork it
