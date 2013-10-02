@@ -5,5 +5,6 @@ module Allmenus::Menus
     attribute :id, Integer, tag: 'id'
     element :name, String
     element :description, String
+    element :size, Float, tag: 'sizes'
   end
 end

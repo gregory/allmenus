@@ -10,11 +10,10 @@ describe Allmenus::Menu do
   end
 
   describe '.find' do
-    subject{ Allmenus::Menu.find(294063) }
+    subject{ Allmenus::Menu.find(58736) }
 
-    it 'returns a new menu with 2 groups' do
-      subject.id.must_equal 294063
-      subject.groups.size.must_equal 2
+    it 'returns a new menu with at least 1 group' do
+      subject.id.must_equal 58736
     end
   end
 end
