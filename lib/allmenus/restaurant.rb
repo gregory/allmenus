@@ -17,5 +17,9 @@ module Allmenus
         r.location = Location.new(r.address, r.city, r.state, r.zip_code)
       end
     end
+
+    def menu
+      @_menu ||= Allmenus::Menu.find(self.id)
+    end
   end
 end
