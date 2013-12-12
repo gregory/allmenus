@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["greg2502@gmail.com"]
   spec.description   = %q{A ruby client for the allmenus API}
   spec.summary       = spec.description
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/gregory/allmenus"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
