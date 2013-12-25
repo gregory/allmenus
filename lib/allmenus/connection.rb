@@ -21,8 +21,8 @@ module Allmenus
         v: API_VERSION,
         api_key: ::Allmenus.config.api_key
       }
-      params.merge! query_params
-      q = ::Rack::Utils.build_query params
+      query_params.merge! params
+      q = ::Rack::Utils.build_query query_params
       "/restaurant?#{q}"
     end
 
