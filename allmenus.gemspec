@@ -6,7 +6,7 @@ require 'allmenus/version'
 Gem::Specification.new do |spec|
   spec.name          = "allmenus"
   spec.version       = Allmenus::VERSION
-  spec.authors       = ["gregory"]
+  spec.authors       = ["Gregory Horion"]
   spec.email         = ["greg2502@gmail.com"]
   spec.description   = %q{A ruby client for the allmenus API}
   spec.summary       = spec.description
