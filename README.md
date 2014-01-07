@@ -34,6 +34,5 @@ Allmenus::Menu.find(menu_id)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gregory/allmenus/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Analytics](https://ga-beacon.appspot.com/UA-34823890-2/allmenus/readme?pixel)](https://github.com/gregory/allmenus)
 
